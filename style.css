@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    width: 95%;
+    height: 90px;
+    justify-content: space-between;
+    position: fixed;
+    margin: 20px 25px;
+    z-index: 2;
+}
+
+.logo {
+    width: 200px;
+    height: 50px;
+}
+
+img {
+    width: 100%;
+}
+
+.menu {
+    height: 50px;
+}
+
+.menu li {
+    float: left;
+    margin-right: 25px;
+    list-style: none;
+}
+
+.menu li a {
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.menu li a:hover {
+    border-bottom: 1px solid white;
+    padding-bottom: 3px;
+    transition: .5s;
+}
+
+.menu-bar {
+    color: white;
+    font-size: 22px;
+}
+/* ----------------------- */
+.starlink{
+    width: 100%;
+    margin: auto;
+}
+.star-image1 {
+    width: 100%;
+    height: 780px;
+    background-image: url(./asset/starlink.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.starlink-info1 {
+    padding-top: 470px;
+    width: 95%;
+    margin: auto;
+}
+
+.starlink-info1 span {
+    color: white;
+    font-size: 22px;
+}
+
+.starlink-info1 h1 {
+    margin-top: 5px;
+    color: white;
+    font-size: 2.8rem;
+}
+
+.starlink-info1 button {
+    margin-top: 20px;
+    width: 180px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.starlink-info1 button:hover {
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+
+/* ----------------------------------- */
+.starlink-info2 {
+    padding-top: 350px;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 200px;
+}
+
+.starlink-info2 span {
+    color: white;
+    font-size: 22px;
+}
+
+.starlink-info2 h1 {
+    margin-top: 5px;
+    color: white;
+    font-size: 2.8rem;
+}
+
+.starlink-info2 button {
+    margin-top: 20px;
+    width: 180px;
+    height: 60px;
+    background-color: #272e3b;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid white;
+}
+
+.starlink-info2 button:hover {
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+
+.star-image2 {
+    width: 100%;
+    height: 620px;
+    background-image: url(./asset/starlink2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.star-image3 {
+    width: 100%;
+    height: 660px;
+    background-image: url(./asset/starlink3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.starlink-info3 {
+    padding-top: 400px;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 200px;
+}
+
+.starlink-info3 span {
+    color: white;
+    font-size: 22px;
+}
+
+.starlink-info3 h1 {
+    margin-top: 5px;
+    color: white;
+    font-size: 2.8rem;
+}
+
+.starlink-info3 button {
+    margin-top: 20px;
+    width: 180px;
+    height: 60px;
+    background-color: #70696d;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.starlink-info3 button:hover {
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    justify-content: center;
+}
+
+footer ul li {
+    float: left;
+    margin-right: 25px;
+    list-style: none;
+    color: white;
+    font-size: 10px;
+}
+
+footer ul li a {
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+footer ul li a:hover {
+    color: grey;
+    transition: .5s;
+}

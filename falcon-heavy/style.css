@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+nav{
+    width: 95%;
+    height: 90px;
+    justify-content: space-between;
+    position: fixed;
+    margin: 20px 25px;
+    z-index: 2;
+}
+.logo{
+    width: 200px;
+    height: 50px;
+}
+img{
+    width: 100%;
+}
+.menu{
+    height: 50px;
+}
+.menu li{
+    float: left;
+    margin-right: 25px;
+    list-style: none;
+}
+.menu li a{
+    color:white;
+    font-weight: 600;
+    font-size: 14px;
+}
+.menu li a:hover{
+    border-bottom: 1px solid white;
+    padding-bottom: 3px;
+    transition: .5s;
+}
+.menu-bar{
+    color: white;
+    font-size: 22px;
+}
+/* -------------------------------- */
+.starlink-info{
+    padding-top: 180px;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 200px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.starlink-info span{
+    color: white;
+    font-size: 18px;
+}
+.starlink-info h1{
+    margin-top: 4px;
+    color: white;
+    font-size: 6rem;
+}
+.star-image1{
+    width: 100%;
+    height: 720px;
+    background-image: url(./asset/falcon-h1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* ------------------------------ */
+.counting{
+    width: 60%;
+    margin: 30px auto;
+    justify-content: space-between;
+}
+.count1{
+    flex-direction: column;
+}
+.count1 h1{
+    font-size: 7rem;
+    color: white;
+}
+.count1 span{
+    font-size: 22px;
+    color: white;
+}
+
+.star-image2{
+    width: 100%;
+    height: 600px;
+    background-image: url(./asset/falcon-h2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* ------------------------------------ */
+.overview{
+    width: 95%;
+    margin: 80px auto;
+    color: white;
+    gap: 100px;
+}
+.overview-left{
+    width: 40%;
+}
+.overview span{
+    font-size: 22px;
+}
+.overview h1{
+    font-size: 3rem;
+}
+.list-items{
+    margin-top: 30px;
+    justify-content:end;
+    gap: 2px;
+}
+.list-items span{
+    color: gray;
+    font-size: 14px;
+}
+.dimension{
+    width: 50%;
+    border-bottom: 1px solid grey;
+    padding-bottom: 20px;
+}
+.size{
+    text-align: right;
+    width: 49%;
+    border-bottom: 1px solid grey;
+    padding-bottom: 20px;
+}
+.overview-right{
+    width: 30%;
+    justify-content: center;
+}
+.overview-right img{
+    width: 30%;
+}
+/* --------------------------- */
+.starlink-info3{
+    padding-top: 470px;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 200px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.starlink-info3 span{
+    color: white;
+    font-size: 18px;
+}
+.starlink-info3 h1{
+    width: 40%;
+    margin-top: 3px;
+    color: white;
+    font-size: 2.5rem;
+}
+.star-image3{
+    width: 100%;
+    height: 720px;
+    background-image: url(./asset/falcon-h4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ------------------------------ */
+.performance{
+    width: 95%;
+    margin: 80px auto;
+    color: white;
+    margin-bottom: 80px;
+    gap: 100px;
+}
+.performance-left{
+    width: 60%;
+    justify-content: center;
+}
+.performance-left img{
+    width: 100%;
+}
+.performance-right{
+    width: 40%;
+}
+.performance-right h1{
+    font-size: 3rem;
+}
+.performance-right p{
+    margin-top: 20px;
+    line-height: 26px;
+}
+
+
+
+/* -------------------------- */
+.engine{
+    width: 95%;
+    margin: 80px auto;
+    color: white;
+    margin-bottom: 80px;
+}
+.engine-left{
+    width: 40%;
+}
+.engine-left p{
+    margin-top: 20px;
+    line-height: 26px;
+}
+.engine a{
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.engine span{
+    font-size: 22px;
+}
+.engine h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.engine-items{
+    margin-top: 30px;
+    justify-content:end;
+    gap: 2px;
+}
+.engine-items span{
+    color: gray;
+    font-size: 14px;
+}
+.engine-right{
+    width: 50%;
+    justify-content: center;
+}
+.engine-right img{
+    width: 40%;
+}
+/* ------------------------------- */
+.information{
+    text-align: center;
+    width: 95%;
+    margin: 50px auto;
+    color: white;
+    flex-direction: column;
+}
+
+.v-rule{
+    border-right: 1px solid lightgray;
+    height: 150px;
+    margin: 30px;
+}
+
+.for{
+    font-size: 14px;
+    color: rgb(205, 191, 191);
+}
+
+.for span{
+    color: white;
+}
+
+.button{
+    gap: 20px;
+}
+
+button {
+    margin-top: 20px;
+    width: 200px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    border: 2px solid white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+
+
+/* --------------------------- */
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    justify-content: center;
+}
+
+footer ul li{
+    float: left;
+    margin-right: 25px;
+    list-style: none;
+    color: white;
+    font-size: 10px;
+}
+footer ul li a{
+    color:white;
+    font-weight: 600;
+    font-size: 12px;
+}
+footer ul li a:hover{
+    color:grey;
+    transition: .5s;
+}
